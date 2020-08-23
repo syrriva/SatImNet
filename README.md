@@ -9,3 +9,5 @@ An open collection of training sets for satellite image classification and segme
 
 ## Python 3 packages
 The Jupyter notebooks have been tested with two Docker images having the following Python requirements:  
+* [requirements_1.txt](https://github.com/syrriva/SatImNet/blob/master/Requirements/requirements_1.txt)
+* [requirements_2.txt](https://github.com/syrriva/SatImNet/blob/master/Requirements/requirements_2.txt)
