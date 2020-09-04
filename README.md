@@ -11,3 +11,27 @@ An open collection of training sets for satellite image classification and segme
 The Jupyter notebooks have been tested with two Docker images having the following Python requirements:  
 * [requirements_1.txt](https://github.com/syrriva/SatImNet/blob/master/Requirements/requirements_1.txt)
 * [requirements_2.txt](https://github.com/syrriva/SatImNet/blob/master/Requirements/requirements_2.txt)
+
+## Examples of Queries
+```
+# Use the string 'path' as 3rd argument in case you would like to retrieve the file paths only.
+
+# Search for jpg files and class: 'PermanentCrop'
+query = Query(content['tree'], 
+               {'genre': 'jpg', 'class': ['PermanentCrop']}, 'path')
+```
+```
+# Search for files having specific number of bands
+query = Query(content['tree'], 
+               {'type': 'file', 'metainfo_numofbands': 13})
+```
+```
+# Search for masks having specific name
+query = Query(content['tree'], 
+               {'type': 'file', 'name': 'vienna', 'path': 'label'}, 'path')
+```
+```
+# Search for files having specific size in terms of rows and columns
+query = Query(content['tree'], 
+               {'type': 'file', 'metainfo_columns': [100, 300], 'metainfo_rows': [100, 300]})
+```
