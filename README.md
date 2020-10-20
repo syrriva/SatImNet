@@ -2,7 +2,7 @@
 An open collection of training sets for satellite image classification and segmentation tasks
 
 * A publication that describes the methodology behind the data sets structure and demonstrates a data fusion based satellite image classification can be found at https://doi.org/10.3390/rs12203358;
-* The native location of **SatImNet** collection is in the *EOS* storage system of the **Big Data Analytics Platform** (/eos/jeodpp/data/base/MachineLearning);
+* The native location of **SatImNet** collection is in the *EOS* storage system of the [Big Data Analytics Platform](https://www.sciencedirect.com/science/article/pii/S0167739X1730078X?via%3Dihub) (/eos/jeodpp/data/base/MachineLearning);
 * The data are also provided via FTP: https://jeodpp.jrc.ec.europa.eu/ftp/public/MachineLearning/SatImNet/
 * This repository contains the Python scripts (in the form of Jupyter notebooks) to access and query the **SatImNet** collection via FTP;
 * Any feedback is very much welcome.
